@@ -1,0 +1,18 @@
+main{
+    width: 100%;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.cards_titulo{
+    font-family: Netflix sans;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: white;
+}
+.margin_auto{
+    text-align: center;
+}

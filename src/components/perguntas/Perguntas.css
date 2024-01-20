@@ -1,0 +1,39 @@
+.container_perguntas{
+    background-color: black;
+    width: 100%;
+    padding: 60px 0;
+    border-bottom: 7px solid rgb(59, 59, 59);
+}
+.content_perguntas{
+    width: 65%;
+    margin: auto;
+    /* max-width: 1200px; */
+    margin: auto;
+    
+}
+.content_sanfonas{
+    margin-bottom: 46px;
+}
+details > summary{
+    list-style-type: none;
+
+}
+@media screen and (max-width:1300px) {
+    .content_perguntas{
+        width: 100%;
+
+    }
+    .content_perguntas{
+        width: 92%;
+    }
+}
+@media screen and (max-width:950px) {
+    .cards_titulo{
+        font-size: 2rem;
+    }
+    .janela p{
+        font-size: 1.2rem;
+        display: contents;
+    }
+
+}

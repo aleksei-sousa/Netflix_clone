@@ -1,0 +1,119 @@
+.top_container{
+    width: 100vw;
+}
+.top_background{
+    position: relative;
+    width: 100vw;
+    height: 750px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.background_shadow{
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.9) 100%);
+
+}
+.background_image{
+    height: 104%;
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    transform: scale(1.15) translateY(-10%);
+    
+}
+
+
+.promo1_content{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.link_planos{
+    color: #448ef4;
+    background-color: transparent;
+    border: transparent;
+    font-weight: 800;
+    display: flex;
+    font-size: 15px;
+    padding: 0;
+}
+.promo1{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.home_text{
+    color: white;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1041px;
+    width: 92%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.home_titulo{
+    font-family: 'Netflix sans';
+    font-size: 50px;
+    text-align: center;
+}
+.home_sub_titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+}
+h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width:1475px){
+header{
+    max-width: 1166px;
+    width: 100%;
+}
+}
+@media screen and (max-width:1000px){
+    .home_titulo{font-size: 2rem;
+        font-weight: 700;}
+
+    .home_sub_titulo{
+        text-align: center;
+        font-size: 1.125rem;
+        margin-top: 20px;
+        font-family: 'Netflix Sans';
+        font-weight: 400;
+    }
+    h4{
+        margin-top: 17px;
+        font-size: 1.125rem;
+    }
+    .top_background{
+        height: 617px;
+    }
+}
+    
+
+
+
+@media screen and (max-width:960px){
+    /* .top_background {
+        height: 500px;
+    }
+    .net_q_vc_adora{
+        bottom: -143px;
+    } */
+}

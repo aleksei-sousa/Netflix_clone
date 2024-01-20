@@ -1,0 +1,171 @@
+.cards_container{
+    background-color: black;
+    width: 100%;
+    border-bottom: 7px solid rgb(59, 59, 59);
+}
+.cards_content{
+    max-width: 1150px;
+    position: relative;
+    /* max-width:1500px; */
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 150px;
+}
+.cards_content_invertido{
+    position: relative;
+    max-width:1150px;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 150px;
+}
+.cards_texto{
+    max-width: 950px;
+}
+.cards_titulo{
+    font-family: Netflix sans;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.cards_descricao{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.cards_container_midia{
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    /* height: 700px; */
+}
+.cards_container_dispositivos{
+    max-width: 700px;
+    width: 75%;
+    position: relative;
+
+}
+.cards_midia{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.cards_container_video{
+    position: absolute;
+    bottom: 46%;
+    left: 13%;
+    overflow: hidden;
+    z-index: 1;
+    width: 72%;
+    transform: translateY(38%);
+}
+.cards_video{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.net_q_vc_adora{
+    position: absolute;
+    top: -100px;
+    width: 94vw;
+    padding: 22px;
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:1300px) {
+    .cards_content{
+        padding: 40px 40px;
+        max-width: 1200px;
+    }
+    .cards_content_invertido{
+        padding: 40px 40px;
+    }
+}
+@media screen and (max-width:950px) {
+    .cards_texto{
+        padding: 0 40px;
+    }
+    .cards_content{
+        flex-direction: column;
+        padding: 105px 0px;
+    }
+    .cards_content_invertido{
+
+        flex-direction: column-reverse;
+        padding: 105px 0px;
+    }
+    .cards_container_dispositivos{
+        width: 100%;
+    }
+    .cards_titulo{
+        font-size: 33px;
+        text-align: center;
+    }
+    .cards_descricao{
+        text-align: center;
+        font-size: 1.10rem;
+    }
+    .cards_midia{
+        width: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .cards_container_video{
+        position: absolute;
+        bottom: 46%;
+        left: 20%;
+        overflow: hidden;
+        z-index: 1;
+        width: 60%;
+        transform: translateY(38%);
+    }
+}
+.downloading{
+    background-color: #000000;
+    border: 3px solid rgb(59, 59, 59);
+    width: 59%;
+    margin: auto;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 0;
+}
+.download_texto{
+    padding: 0px 0px 0px 10px;
+}
+.stg_thgs{
+    color: white;
+    font-weight: bold;
+}
+.down_andamento{
+    color: #0071eb;
+    margin-top: 2px;
+}
+.poster{
+    width: 70px;
+    height: 80px;
+    margin-left: 10px;
+}
+.download_gif{
+    width: 60px;
+}

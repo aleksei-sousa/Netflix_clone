@@ -1,0 +1,60 @@
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+li{
+    text-decoration: none;
+}
+li a{
+    color: rgba(255,255,255,0.7);
+    font-family: 'Netflix Sans';
+    font-size: 14px;
+}
+.footer_content{
+    width: 66%;
+    margin: auto;
+    padding: 75px 0;
+    font-size: 10px;
+}
+.grid_pai {
+    display: grid;
+    grid-template-areas: 'filho1 filho2 filho3 filho4';
+
+}
+.ligue_para, .ligue_para a{
+    color: rgba(255,255,255,0.7);
+}
+.grid_filho{
+    display: flex;
+    flex-direction: column;
+}
+.filho1{
+    grid-area: filho1;
+}
+.filho2{
+    grid-area: filho2;
+}
+.filho3{
+    grid-area: filho3;
+}
+.filho4{
+    grid-area: filho4;
+}
+.footer_link{
+    margin-top: 15px;
+}
+@media screen and (max-width:1300px) {
+    .footer_content{
+        width: 92%;
+        
+    }
+
+    
+}
+@media screen and (max-width:950px){
+    .grid_pai {
+        grid-template-areas: 
+        'filho1 filho2'
+        'filho3 filho4';
+    }    
+}

@@ -1,0 +1,59 @@
+.container_form{
+    width: 86%;
+    margin: auto;
+}
+.input_container{
+    max-width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.titulo_input{
+    color: white;
+}
+.input_email{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 0px 0px 0px 22px;
+    font-size: 1rem;
+    color: white;
+    height: 100%;
+}
+.btn_submit{
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3em;
+    transition: .3s;
+}
+
+.btn_submit:hover{
+    background-color: rgb(190, 2, 12);
+    transition: .3s;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .input_container{
+        flex-direction: column;
+        height: 100px;  
+    }
+    .btn_submit {
+        width: 135px;
+    }
+}
