@@ -1,4 +1,4 @@
-import './style/fonts.css'
+import './styles/fonts.css'
 import './App.css'
 import './index.css'
 //componentes

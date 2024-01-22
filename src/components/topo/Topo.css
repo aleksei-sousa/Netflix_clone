@@ -60,7 +60,8 @@
     padding-right: 35px;
 }
 .home_titulo{
-    font-family: 'Netflix sans';
+    font-family: Netflix sans;
+    font-weight: 900;
     font-size: 50px;
     text-align: center;
 }

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Netflix Sans";
+    font-weight: 400;
+    src: local(Netflix Sans), url('./fonts/NetflixSans_W_Rg.woff2') format("woff2")
+}
+
+@font-face {
+    font-family: "Netflix Sans";
+    font-weight: 700;
+    src: local(Netflix Sans), url('./fonts/NetflixSans_W_Md.woff2') format("woff2")
+}
+
+@font-face {
+    font-family: Netflix Sans;
+    font-weight: 900;
+    src: local(Netflix Sans), url('./fonts/NetflixSans_W_Blk.woff2') format("woff2")
+}   
